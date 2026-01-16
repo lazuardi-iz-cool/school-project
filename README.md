@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # School-Project 🚀
 
 ### Bahasa Indonesia
