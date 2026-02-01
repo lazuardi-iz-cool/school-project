@@ -41,4 +41,4 @@ This repository serves as a digital journal of my journey in mastering web devel
 - Building interactive and functional logic using **Vanilla JavaScript**.
 
 ---
-*Created with 💻 and determination by [Nama Kamu/Username GitHub]*
+*Created with 💻 and determination by myself. And machines.*
