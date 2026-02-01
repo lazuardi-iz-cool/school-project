@@ -1,4 +1,4 @@
-# School-Project 🚀
+# School-Project
 
 ### Bahasa Indonesia
 Repositori ini berisi kumpulan proyek latihan yang saya kerjakan selama di sekolah. Setiap folder di sini mewakili proses belajar saya dalam menguasai pengembangan web dasar dan logika pemrograman. Proyek ini mencakup manipulasi DOM, eksperimen warna, permainan sederhana, hingga aplikasi produktivitas.
