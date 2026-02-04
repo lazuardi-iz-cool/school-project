@@ -18,24 +18,6 @@ clearBtn.addEventListener("click", clearAll)
 
 function addTodo() {
   const text = input.value;
-
-  if (text.toLowerCase() === "gendies") {
-    document.body.style.backgroundColor = "#8B0000";
-    stats.style.color = "#FFD700";
-    stats.textContent = "System Update: Gendies me-rewrite baris kode hidupku menjadi lebih bermakna :D.";
-    
-    setTimeout(() => {
-      alert("Terima kasih karena telah membuatku 'terlihat'. Aku bukan lagi NPC/figuran, dan itu karenanmu.");
-    }, 100);
-    
-    setTimeout(() => {
-      document.body.style.backgroundColor = "#121212";
-      stats.style.color = "#888";
-      updateStats();
-    }, 9000);
-    input.value = "";
-    return;
-  }
   
   if (text === "") return;
 
@@ -46,6 +28,10 @@ function addTodo() {
     li.remove();
     updateStats();
   });
+
+  li.addEventListener("click", () => {
+    li.classList.toggle("completed");
+  })
 
   list.appendChild(li);
   updateStats();
